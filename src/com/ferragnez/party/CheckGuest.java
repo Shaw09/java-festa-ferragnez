@@ -35,8 +35,9 @@ public class CheckGuest {
 			} else if (counter == invitati.length -1) {
 				System.out.println("Non sei sulla lista, smamma");
 				
-				counter++;
+			
 			}
+			counter++;
 		}
 		
 		scan.close();
